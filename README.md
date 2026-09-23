@@ -1,43 +1,58 @@
-Requirements
-Python 3.6+
-PyQt5
-requests
+## Requirements
 
-Installation
-Clone this repository:```
+- Python 3.6+
+- PyQt5
+- requests
 
-   git clone https://github.com/para911/ipchanger
-   
+## Installation
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/para911/ipchanger
+```
+
 2. Navigate to the project directory:
-   
 
-   cd ipchanger
-   
+```bash
+cd ipchanger
+```
+
 3. Install the required dependencies:
-   
 
-   pip install -r requirements.txt
-   
-### Usage
-1. Run the application:
-   
+```bash
+pip install -r requirements.txt
+```
 
-   sudo python ip_changerEN.py
-   ```
-Click "Update Proxy List" to fetch and verify working proxies.
-Use "Change IP Once" to change your IP address manually.
-Select an interval and click "Start Automatic IP Change" for automatic IP changes.
-Click "Stop" to halt automatic IP changes.
-Use "Reset IP" to revert to your original IP address.
+## Usage
 
-Notes
-Ensure you have the necessary permissions to change system proxy settings.
-The application works best with an active internet connection.
-Some antivirus software may interfere with proxy changes.
+Run the application:
 
-Platforms
-Windows: Tested on Windows 10
-macOS: Tested on macOS Catalina and later
-Linux: Tested on Ubuntu 20.04 (may require additional setup for different desktop environments)
+```bash
+sudo python ip_changerEN.py
+```
 
----
+Once the application is open:
+
+- **Update Proxy List** — Fetch and verify available proxies.
+- **Change IP Once** — Change your IP address manually.
+- **Start Automatic IP Change** — Automatically switch proxies based on the selected interval.
+- **Stop** — Stop the automatic IP changing process.
+- **Reset IP** — Restore the original network/proxy configuration.
+
+## Notes
+
+- Make sure the application has the required permissions to modify system proxy settings.
+- An active internet connection is required to fetch and verify proxy servers.
+- Some antivirus or security software may interfere with proxy configuration changes.
+- Proxy availability and connection quality may vary depending on the proxy provider.
+
+## Platform Support
+
+| Platform | Status |
+| --- | --- |
+| Windows | Tested on Windows 10 |
+| macOS | Tested on macOS Catalina and later |
+| Linux | Tested on Ubuntu 20.04 |
+
+Linux users may require additional configuration depending on the desktop environment and network setup.
